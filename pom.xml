@@ -34,4 +34,16 @@
             </plugin>
         </plugins>
     </build>
+         <distributionManagement>
+            <repository>
+                 <id>deployment</id>
+                 <name>dockerweb_release</name>
+                 <url>http://localhost:8081/repository/dockerweb_release/</url>
+            </repository>
+            <snapshotRepository>
+                 <id>deployment</id>
+                 <name>dockerweb_snapshot</name>
+                 <url>http://localhost:8081/repository/doeckerweb_snapshot/</url>
+            </snapshotRepository>         
+         </distributionManagement>                
 </project>
