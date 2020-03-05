@@ -42,7 +42,7 @@
             </repository>
             <snapshotRepository>
                  <id>deployment</id>
-                 <name>dockerweb_snapshot</name>
+                 <name>doeckerweb_snapshot</name>
                  <url>http://localhost:8081/repository/doeckerweb_snapshot/</url>
             </snapshotRepository>         
          </distributionManagement>                
