@@ -38,12 +38,12 @@
          <distributionManagement>
             <repository>
                  <id>deployment</id>
-                 <name>dockerweb_release</name>
+                 <name>Dockerweb_release</name>
                  <url>http://localhost:8081/repository/Dockerweb_release/</url>
             </repository>
             <snapshotRepository>
                  <id>deployment</id>
-                 <name>doeckerweb_snapshot</name>
+                 <name>Dockerweb_snapshot</name>
                  <url>http://localhost:8081/repository/Dockerweb_snapshot/</url>
             </snapshotRepository>         
          </distributionManagement> 
